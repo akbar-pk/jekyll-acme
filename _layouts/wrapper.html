@@ -4,7 +4,9 @@
   {% include head.html %}
 </head>
 <body class="offers-controller index {{ page.bodyClass }}" data-no-turbolink="true">
-
+{% if page.pageType == 'edit' %}
+  {% include slider.html %}
+{% endif %}
 <div id="components-container">
 
   {{content}}

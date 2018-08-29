@@ -30,7 +30,6 @@
 
 body .extruder .header {
   height: 60px;
-  padding:   
 }
 
 body .extruder .text h3 {
@@ -167,6 +166,7 @@ body .extruder .text h3.panel-title {
   display: none;
   height: 10px;
   background: #000;
+  border-radius: 0 0 8px 8px;
   -moz-border-radius: 0 0 8px 8px;
   -webkit-border-top-left-radius: 0;
   -webkit-border-top-right-radius: 0;
@@ -192,6 +192,7 @@ body .extruder .text h3.panel-title {
   width: 180px;
   background: #000;
   cursor: pointer;
+  border-radius: 0 0 8px 8px;
   -moz-border-radius: 0 0 8px 8px;
   -webkit-border-top-left-radius: 0;
   -webkit-border-top-right-radius: 0;
@@ -208,6 +209,7 @@ body .extruder .text h3.panel-title {
 }
 
 .extruder.top .extruder-content {
+  border-radius: 0 0 8px 8px;
   -moz-border-radius: 0 0 8px 8px;
   -webkit-border-top-left-radius: 0;
   -webkit-border-top-right-radius: 0;
@@ -232,6 +234,7 @@ body .extruder .text h3.panel-title {
   width: 180px;
   background: #000;
   cursor: pointer;
+  border-radius: 0 0 8px 8px;
   -moz-border-radius: 8px 8px 0 0;
   -webkit-border-top-left-radius: 8px;
   -webkit-border-top-right-radius: 8px;
@@ -248,6 +251,7 @@ body .extruder .text h3.panel-title {
 }
 
 .extruder.bottom .footer {
+  border-radius: 0 0 8px 8px;
   -moz-border-radius: 8px 8px 0 0;
   -webkit-border-top-left-radius: 8px;
   -webkit-border-top-right-radius: 8px;
@@ -262,6 +266,7 @@ body .extruder .text h3.panel-title {
 }
 
 .extruder.bottom .extruder-content {
+  border-radius: 0 0 8px 8px;
   -moz-border-radius: 8px 8px 0 0;
   -webkit-border-top-left-radius: 8px;
   -webkit-border-top-right-radius: 8px;
@@ -310,6 +315,7 @@ body .extruder .text h3.panel-title {
   width: 40px;
   position: absolute;
   right: 0;
+  border-radius: 0 0 8px 8px;
   -moz-border-radius: 0 8px 0 8px;
   -webkit-border-top-left-radius: 0;
   -webkit-border-top-right-radius: 8px;
@@ -365,6 +371,7 @@ body .extruder .text h3.panel-title {
   width: 30px;
   position: absolute;
   left: -37px;
+  border-radius: 0 0 8px 8px;
   -moz-border-radius: 8px 0 8px 0;
   -webkit-border-top-left-radius: 8px;
   -webkit-border-top-right-radius: 0;
