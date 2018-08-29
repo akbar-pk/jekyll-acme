@@ -1,0 +1,31 @@
+
+  </div>
+  
+  <footer class="container">
+    <p class="text-center">
+    <a class="footer-logo" href="http://www.eteach.com/">eTeach</a>
+    </p>
+  </footer>
+
+  <!-- Panel holders -->
+  {% if page.pageType == 'edit' %} 
+  <div id="extruderLeft" class="a {title:'Career site editor', url:'/edit/extruderLeft.html'}"></div>
+  <div id="extruderRight" class="{title:'Edit', url:'parts/extruderRight.html'}"></div>
+  {% endif %}
+
+  <script>
+    // Initialize and add the map
+    function initMap() {
+      // The location of Uluru
+      var uluru = {lat: 51.450267, lng: -0.573086};
+      // The map, centered at Uluru
+      var map = new google.maps.Map(
+          document.getElementById('map-component-1057'), {zoom: 16, center: uluru});
+      // The marker, positioned at Uluru
+      var marker = new google.maps.Marker({position: uluru, map: map});
+    }
+  </script>
+
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvUI6XK2Bd0ybQ1W-uAHvMZQ35d-U-MUY&callback=initMap">
+</script>

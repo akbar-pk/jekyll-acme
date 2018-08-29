@@ -1,0 +1,82 @@
+<div class="component offers-component" id="section-838">
+    <div class="container">
+      <h3 class="section-title">{{page.jobTitle}}</h3>
+      <h4 class="section-subtitle">{{page.jobSubTitle}}</h4>
+      <div class="filters-view">
+        <div class="jobs-container" id="jobs-list">
+          <div class="filters-container filters hidden-xs">
+            <div class="filter filter__search">
+              <input type="text" name="search" id="search-filter" class="search form-control" placeholder="Search...">
+            </div>
+            <div class="filter">
+              <select name="department" id="department" class="form-control"><option value="">All departments</option></select>
+            </div>
+            <div class="filter">
+              <select name="city" id="city" class="form-control"><option value="">All cities</option><option value="london">london</option></select>
+            </div>
+            <div class="filter filter__clear">
+              <a class="clear-filters" href="#">Clear</a>
+            </div>
+          </div>
+          <div class="list-container list">
+            <a class="job job__row" id="job-8726" href="/o/teach"><div class="job__column job__column--title">
+              <h5 class="title">teach</h5>
+            </div>
+            <div class="job__column job__column--meta">
+              <span class="location">
+                london
+              </span>
+            </div>
+            <div class="job-data hidden">
+              <div class="department"></div>
+              <div class="city">london</div>
+            </div>
+            </a>
+          </div>
+          <div class="empty-state hidden">
+            <h3>
+              No offers found
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% if page.pageType == 'edit' %} 
+    <a class="action edit hidden-xs" data-toggle="tooltip" data-placement="left" title="" data-remote="true" href="/components/838/edit" data-original-title="Edit"><i class="icon ion-edit"></i>
+    </a>
+    <a class="action delete hidden-xs" data-toggle="tooltip" data-placement="left" data-confirm="Are you sure you want to delete this?" title="" data-remote="true" rel="nofollow" data-method="delete" href="/components/838" data-original-title="Delete"><i class="icon ion-trash-b"></i>
+    </a>
+    {% endif %}
+
+    <div class="add-action dropdown hidden-xs">
+      <a class="dropdown-toggle" data-toggle="dropdown">
+        <i class="icon ion-plus-round"></i>
+      </a>
+      <ul class="dropdown-menu dropdown-menu-right">
+        <li class="element-type element-type__text-component">
+          <a data-remote="true" href="/components/new?after_component=836&amp;type=Careers%3A%3ATextComponent">Text / Picture</a>
+        </li>
+        <li class="element-type element-type__team-component">
+          <a data-remote="true" href="/components/new?after_component=836&amp;type=Careers%3A%3ATeamComponent">Team</a>
+        </li>
+        <li class="element-type element-type__gallery-component">
+          <a data-remote="true" href="/components/new?after_component=836&amp;type=Careers%3A%3AGalleryComponent">Photo Gallery</a>
+        </li>
+        <li class="element-type element-type__perks-component">
+          <a data-remote="true" href="/components/new?after_component=836&amp;type=Careers%3A%3APerksComponent">Perks &amp; Benefits</a>
+        </li>
+        <li class="element-type element-type__map-component">
+          <a data-remote="true" href="/components/new?after_component=836&amp;type=Careers%3A%3AMapComponent">Map location</a>
+        </li>
+        <li class="element-type element-type__quote-component">
+          <a data-remote="true" href="/components/new?after_component=836&amp;type=Careers%3A%3AQuoteComponent">Quote</a>
+        </li>
+        <li class="element-type element-type__html-component">
+          <a data-remote="true" href="/components/new?after_component=836&amp;type=Careers%3A%3AHtmlComponent">Custom HTML/CSS</a>
+        </li>
+        <li class="element-type element-type__videos-component">
+          <a data-remote="true" href="/components/new?after_component=836&amp;type=Careers%3A%3AVideosComponent">Videos</a>
+        </li>
+      </ul>
+    </div>
+  </div>

@@ -1,0 +1,82 @@
+<div class="component text-component" id="section-1180">
+    <div class="container no-photo">
+      <h3 class="section-title">{{page.whyworkTitle}}</h3>
+      <h4 class="section-subtitle">{{page.whyworkSubTitle}}</h4>
+      <div class="text row">
+        <div class="body col-xs-12">
+          <div class="careers__faqs">
+          <ul class="faqs">
+              <li class="faqs__item">
+                  <img src="/images/culture.gif" alt="" class="faqs__icon">
+                  <h3 class="faqs__title">Great culture</h3>
+                  <p class="faqs__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In diam velit, auctor eget leo sed, faucibus consequat erat.</p>
+              </li>
+              <li class="faqs__item">
+                  <img src="/images/locations.gif" alt="" class="faqs__icon">
+                  <h3 class="faqs__title">Multi locations</h3>
+                  <p class="faqs__description">Quisque et placerat velit. Pellentesque suscipit, ex quis facilisis pulvinar, risus turpis hendrerit purus, et tempor lorem nisi in sem.</p>
+              </li>
+              <li class="faqs__item">
+                  <img src="/images/flexible.gif" alt="" class="faqs__icon">
+                  <h3 class="faqs__title">Flexible working hours</h3>
+                  <p class="faqs__description">Quisque et placerat velit. Pellentesque suscipit, ex quis facilisis pulvinar, risus turpis hendrerit purus, et tempor lorem nisi in sem.</p>
+              </li>
+              <li class="faqs__item">
+                  <img src="/images/holiday.gif" alt="" class="faqs__icon">
+                  <h3 class="faqs__title">24 days of holiday</h3>
+                  <p class="faqs__description">Quisque et placerat velit. Pellentesque suscipit, ex quis facilisis pulvinar, risus turpis hendrerit purus, et tempor lorem nisi in sem.</p>
+              </li>
+              <li class="faqs__item">
+                  <img src="/images/health.gif" alt="" class="faqs__icon">
+                  <h3 class="faqs__title">Private health insurance</h3>
+                  <p class="faqs__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In diam velit, auctor eget leo sed, faucibus consequat erat.</p>
+              </li>
+              <li class="faqs__item">
+                  <img src="/images/gym.gif" alt="" class="faqs__icon">
+                  <h3 class="faqs__title">Discounted gym access</h3>
+                  <p class="faqs__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In diam velit, auctor eget leo sed, faucibus consequat erat.</p>
+              </li>
+          </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% if page.pageType == 'edit' %} 
+    <a class="action edit hidden-xs" data-toggle="tooltip" data-placement="left" title="" data-remote="true" href="/components/1180/edit" data-original-title="Edit"><i class="icon ion-edit"></i>
+    </a>
+    <a class="action delete hidden-xs" data-toggle="tooltip" data-placement="left" data-confirm="Are you sure you want to delete this?" title="" data-remote="true" rel="nofollow" data-method="delete" href="/components/1180" data-original-title="Delete"><i class="icon ion-trash-b"></i>
+    </a>
+
+    <div class="add-action dropdown hidden-xs">
+        <a class="dropdown-toggle" data-toggle="dropdown">
+          <i class="icon ion-plus-round"></i>
+        </a>
+        <ul class="dropdown-menu dropdown-menu-right">
+          <li class="element-type element-type__text-component">
+            <a data-remote="true" href="/components/new?after_component=836&amp;type=Careers%3A%3ATextComponent">Text / Picture</a>
+          </li>
+          <li class="element-type element-type__team-component">
+            <a data-remote="true" href="/components/new?after_component=836&amp;type=Careers%3A%3ATeamComponent">Team</a>
+          </li>
+          <li class="element-type element-type__gallery-component">
+            <a data-remote="true" href="/components/new?after_component=836&amp;type=Careers%3A%3AGalleryComponent">Photo Gallery</a>
+          </li>
+          <li class="element-type element-type__perks-component">
+            <a data-remote="true" href="/components/new?after_component=836&amp;type=Careers%3A%3APerksComponent">Perks &amp; Benefits</a>
+          </li>
+          <li class="element-type element-type__map-component">
+            <a data-remote="true" href="/components/new?after_component=836&amp;type=Careers%3A%3AMapComponent">Map location</a>
+          </li>
+          <li class="element-type element-type__quote-component">
+            <a data-remote="true" href="/components/new?after_component=836&amp;type=Careers%3A%3AQuoteComponent">Quote</a>
+          </li>
+          <li class="element-type element-type__html-component">
+            <a data-remote="true" href="/components/new?after_component=836&amp;type=Careers%3A%3AHtmlComponent">Custom HTML/CSS</a>
+          </li>
+          <li class="element-type element-type__videos-component">
+            <a data-remote="true" href="/components/new?after_component=836&amp;type=Careers%3A%3AVideosComponent">Videos</a>
+          </li>
+        </ul>
+      </div>
+    {% endif %}
+  </div>
