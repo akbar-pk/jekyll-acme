@@ -27,42 +27,63 @@
             </div>
           </div>
         </div>
-        {% if page.pageType == 'edit' %} 
-        <a class="action edit hidden-xs" data-toggle="tooltip" data-placement="left" title="" data-remote="true" href="/components/3906/edit" data-original-title="Edit"><i class="icon ion-edit"></i>
+        {% if page.pageType == 'edit' %}         
+        <a class="action edit hidden-xs" data-toggle="tooltip" data-placement="left" title="" data-remote="true" href="/components/836/edit" data-original-title="Edit">
+          <span class="button-container" data-toggle="modal" data-target="#category"><i class="icon ion-edit"></i></span>
         </a>
-        <a class="action delete hidden-xs" data-toggle="tooltip" data-placement="left" data-confirm="Are you sure you want to delete this?" title="" data-remote="true" rel="nofollow" data-method="delete" href="/components/3906" data-original-title="Delete"><i class="icon ion-trash-b"></i>
+        <a class="action delete hidden-xs" data-toggle="tooltip" data-placement="left" data-confirm="Are you sure you want to delete this?" title="" data-remote="true" rel="nofollow" data-method="delete" href="https://acmeschool.careers.eteach.com/components/1126" data-original-title="Delete"><i class="icon ion-trash-b"></i>
         </a>
-        {% endif %}
-
-        <div class="add-action dropdown hidden-xs">
-          <a class="dropdown-toggle" data-toggle="dropdown">
-            <i class="icon ion-plus-round"></i>
-          </a>
-          <ul class="dropdown-menu dropdown-menu-right">
-            <li class="element-type element-type__text-component">
-              <a data-remote="true" href="/components/new?after_component=836&amp;type=Careers%3A%3ATextComponent">Text / Picture</a>
-            </li>
-            <li class="element-type element-type__team-component">
-              <a data-remote="true" href="/components/new?after_component=836&amp;type=Careers%3A%3ATeamComponent">Team</a>
-            </li>
-            <li class="element-type element-type__gallery-component">
-              <a data-remote="true" href="/components/new?after_component=836&amp;type=Careers%3A%3AGalleryComponent">Photo Gallery</a>
-            </li>
-            <li class="element-type element-type__perks-component">
-              <a data-remote="true" href="/components/new?after_component=836&amp;type=Careers%3A%3APerksComponent">Perks &amp; Benefits</a>
-            </li>
-            <li class="element-type element-type__map-component">
-              <a data-remote="true" href="/components/new?after_component=836&amp;type=Careers%3A%3AMapComponent">Map location</a>
-            </li>
-            <li class="element-type element-type__quote-component">
-              <a data-remote="true" href="/components/new?after_component=836&amp;type=Careers%3A%3AQuoteComponent">Quote</a>
-            </li>
-            <li class="element-type element-type__html-component">
-              <a data-remote="true" href="/components/new?after_component=836&amp;type=Careers%3A%3AHtmlComponent">Custom HTML/CSS</a>
-            </li>
-            <li class="element-type element-type__videos-component">
-              <a data-remote="true" href="/components/new?after_component=836&amp;type=Careers%3A%3AVideosComponent">Videos</a>
-            </li>
-          </ul>
+    
+        <!-- Modal -->
+      <div class="modal fade" id="category" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Edit Category</h4>
+            </div>
+            <div class="modal-body">
+              <p>This is #section-3906.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
         </div>
       </div>
+
+      <div class="add-action dropdown hidden-xs">
+        <a class="dropdown-toggle" data-toggle="dropdown">
+          <i class="icon ion-plus-round"></i>
+        </a>
+        <ul class="dropdown-menu dropdown-menu-right">
+          <li class="element-type element-type__text-component">
+            <a data-remote="true" href="/components/new?after_component=836&amp;type=Careers%3A%3ATextComponent">Text / Picture</a>
+          </li>
+          <li class="element-type element-type__team-component">
+            <a data-remote="true" href="/components/new?after_component=836&amp;type=Careers%3A%3ATeamComponent">Team</a>
+          </li>
+          <li class="element-type element-type__gallery-component">
+            <a data-remote="true" href="/components/new?after_component=836&amp;type=Careers%3A%3AGalleryComponent">Photo Gallery</a>
+          </li>
+          <li class="element-type element-type__perks-component">
+            <a data-remote="true" href="/components/new?after_component=836&amp;type=Careers%3A%3APerksComponent">Perks &amp; Benefits</a>
+          </li>
+          <li class="element-type element-type__map-component">
+            <a data-remote="true" href="/components/new?after_component=836&amp;type=Careers%3A%3AMapComponent">Map location</a>
+          </li>
+          <li class="element-type element-type__quote-component">
+            <a data-remote="true" href="/components/new?after_component=836&amp;type=Careers%3A%3AQuoteComponent">Quote</a>
+          </li>
+          <li class="element-type element-type__html-component">
+            <a data-remote="true" href="/components/new?after_component=836&amp;type=Careers%3A%3AHtmlComponent">Custom HTML/CSS</a>
+          </li>
+          <li class="element-type element-type__videos-component">
+            <a data-remote="true" href="/components/new?after_component=836&amp;type=Careers%3A%3AVideosComponent">Videos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    {% endif %}
+
+        

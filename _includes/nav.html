@@ -74,8 +74,34 @@
     <div class="spacing"></div>
 
     {% if page.pageType == 'edit' %} 
-    <a class="action edit hidden-xs" data-toggle="tooltip" data-placement="left" title="" data-remote="true" href="/components/836/edit" data-original-title="Edit"><i class="icon ion-edit"></i>
-    </a>    
+    <a class="action edit hidden-xs" 
+    
+    data-placement="left" 
+    title="" 
+    data-remote="true" href="" 
+    data-original-title="Edit"
+    data-toggle="tooltip" 
+    >
+      <span class="button-container" data-toggle="modal" data-target="#header"><i class="icon ion-edit"></i></span>
+    </a> 
+    
+  <!-- Modal -->
+  <div class="modal fade" id="header" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Edit Header</h4>
+        </div>
+        <div class="modal-body">
+          <p>This is #section-836.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
     <div class="add-action dropdown hidden-xs">
       <a class="dropdown-toggle" data-toggle="dropdown">

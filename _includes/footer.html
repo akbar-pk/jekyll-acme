@@ -7,6 +7,10 @@
     </p>
   </footer>
 
+  {% if page.pageType == 'edit' %}    
+    <script src="/js/slider_editor.js"></script>
+  {% endif %}
+
   <script>
     // Initialize and add the map
     function initMap() {
