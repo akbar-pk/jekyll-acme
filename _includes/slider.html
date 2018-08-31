@@ -1,48 +1,58 @@
 <!-- <div class="editor-backdrop"></div> -->
-  <a class="editor-link hidden-xs" href="#editor" style="/*display: none;*/">
+
+<a id="leftSliderOpenButton" class="editor-link hidden-xs" href="#editor" style="/*display: none;*/">
   <div class="btn-editor easing">
-    <img src="https://d171ro0hmgt8ka.cloudfront.net/assets/careers/edit_text-55befe0d491a9bc11afd5567915e684c25fc419ce4938ca341c3fef56add2e6e.png" alt="Edit text 55befe0d491a9bc11afd5567915e684c25fc419ce4938ca341c3fef56add2e6e">
+    <img src="https://d171ro0hmgt8ka.cloudfront.net/assets/careers/edit_text-55befe0d491a9bc11afd5567915e684c25fc419ce4938ca341c3fef56add2e6e.png" alt="Edit">
   </div>
 </a>
-<div class="hidden-xs" id="editor" role="navigation" style="position: fixed; top: 0px; bottom: 0px; height: 100%; left: 0px; width: 300px; transition: left 300ms ease 0s;">
+<div class="hidden-xs" id="editor" role="navigation">
+  <div id="sliderContent" style="display: none;">
     <div class="header">
-    <img src="https://d171ro0hmgt8ka.cloudfront.net/assets/careers/editor_logo-d1e1947d83b6fea145c15b4b726926f7e11325221378d64d11d058db8a27e402.png" alt="Editor logo d1e1947d83b6fea145c15b4b726926f7e11325221378d64d11d058db8a27e402">
+    <img src="https://d171ro0hmgt8ka.cloudfront.net/assets/careers/editor_logo-d1e1947d83b6fea145c15b4b726926f7e11325221378d64d11d058db8a27e402.png" alt="Editor">
     <strong>Career Site</strong> editor
-    <a class="editor-link active" href="#editor">
+    <a id="closeLeftSlider"  class="editor-link active" href="#editor">
     <i class="fa fa-angle-double-left"></i>
     </a>
     </div>
     <div class="editor-content ps-container ps-active-y">
-      <section class="links">          
-          <a class="btn btn-primary btn-block" href="#" role="button">Link One</a>
-          <a class="btn btn-primary btn-block" href="#" role="button">Link Two</a>
-          <a class="btn btn-primary btn-block" href="#" role="button">Link Three</a>
-      </section>
+
+      <section class="settings">
+        <h3><span>Pages</span></h3>
+        
+                      
+        <ul class="list row">
+          <li class="col-xs-12">            
+              <a class="inner font-selector dropdown-toggle" href="#">Page 1</a>            
+          </li>
+          <li class="col-xs-12">            
+              <a class="inner font-selector dropdown-toggle" href="#">Page 2</a>            
+          </li>
+          <li class="col-xs-12">            
+              <a class="inner font-selector dropdown-toggle" href="#">Page 3</a>            
+          </li>
+        </ul>               
+        
+      </section>     
 
       <section class="fields" id="sliderEditor" >
-          <form>
+          <h3><span>Contact Info</span></h3>
+          <form class="dark">
             <div class="form-group">
-              <label for="ContactEmail">Contact Email</label>
-              <input type="name" name="email" class="form-control" id="ContactEmail" placeholder="name@example.com">
+              <label for="ContactEmail">Email</label>
+              <input type="name" name="email" class="form-control short" id="ContactEmail" placeholder="name@example.com">
             </div>
 
             <div class="form-group">
                 <label for="FacebookUrl">Facebook URL</label>
-                <input type="text" name="facebook" class="form-control" id="FacebookUrl" placeholder="School's Facebook page URL">
+                <input type="text" name="facebook" class="form-control short" id="FacebookUrl" placeholder="School's Facebook page URL">
               </div>
 
-              <button type="button" id="sliderEditorSave" class="btn btn-primary" onclick="sliderEditor.saveSliderData">Save</button>
+              <button type="button" id="sliderEditorSave" class="btn btn-primary pull-right" onclick="sliderEditor.saveSliderData">Save</button>
           </form>
       </section>   
     </div>
-  </div>    
+  </div>   
+</div> 
 </div>
-
-<script>
-  // $(document).ready(function(){
-  //   var mySlider = sliderEditor;
-  //   console.log(sliderEditor);
-  // });    
-</script>
 
 

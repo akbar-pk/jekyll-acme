@@ -93,47 +93,11 @@ $(document).ready(function () {
     jobWidget(schools,'group__jobs');
 });
 
-//get parameters from url
-// var urlParams = new URLSearchParams(window.location.search);
-// var isEdit = urlParams.get('action');
-
-//add css and javascript files for edit page if found parameter "edit" in the url
-// if(isEdit){
-//     var head = document.getElementsByTagName('head')[0];
-
-//     //css files
-//     var css = document.createElement('link');
-//         css.href = "/css/mbExtruder.css"
-//         css.type = 'text/stylesheet';
-//         head.appendChild(css);
-    
-//     // javascript files
-//     var jsFilesForEdit = [
-//         "jquery.hoverIntent.min",
-//         "jquery.mb.flipText",
-//         "mbExtruder"
-//     ];
-//     for(i = 0; i < jsFilesForEdit.length; i++) {        
-//         var script = document.createElement('script');
-//         script.src = "/js/" + jsFilesForEdit[i] + ".js";
-//         script.type = 'text/javascript';
-//         head.appendChild(script)
-//     }
-
-// }
 </script>
 
 {% if page.pageType == 'edit' %} 
-    <!-- <link rel="stylesheet" type="text/css" href="//s3.amazonaws.com/mikemai/assets/css/typesettings-1.0-min.css"> -->
-    <!-- <link rel="stylesheet" href="/css/mbExtruder.css"> -->
-    <!-- <link rel="stylesheet" href="/css/ace_editor.css"> -->
-    <!-- <script src="/js/jquery.hoverIntent.min.js"></script> -->
-    <!-- <script src="/js/jquery.mb.flipText.js"></script> -->
-    <!-- <script src="/js/mbExtruder.js"></script>     -->
-    <!-- <script src="/js/edit.panels.js"></script> -->
     <script src="/js/careers_editor.js"></script>
     <script src="/js/slider_editor.js"></script>
-    <!-- <script async="" src="https://script.hotjar.com/modules-3c0ad2dd3b58880414ce3e056cbbb79f.js"></script> -->
 {% endif %}
 
 
