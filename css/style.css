@@ -11987,6 +11987,13 @@ line-he .header-component .cover h1.brand a:hover {
 	line-height: 30px;
 }
 
+/* editor */
+#grapes-editor {
+	width: auto;
+	height: auto;
+	min-height: auto;
+}
+
 @media screen and (max-width:900px) {
 	.faqs__item {
 		width: 50%;

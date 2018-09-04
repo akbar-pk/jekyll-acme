@@ -26,15 +26,3 @@ var sliderEditor = (function(){
         saveSliderData: saveSliderData
     }
 })();
-
-/* Left slider (show/hide) */
-$(document).on('click', '#leftSliderOpenButton', function(){
-    $("#editor").css("width", 300);   
-    $("#sliderContent").delay(300).fadeIn(500);
-    $(this).fadeOut();
-});
-$(document).on('click', '#closeLeftSlider', function(){
-    $("#sliderContent").fadeOut(0);
-    $("#editor").css("width", 0);
-    $("#leftSliderOpenButton").fadeIn(400);
-});

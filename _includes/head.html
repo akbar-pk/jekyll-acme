@@ -18,103 +18,12 @@
 <![endif]-->
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 <link href="http://acmeschool.careers.eteach.com/" rel="canonical">
-<link rel="stylesheet" media="screen" href="/css/careers-592a1a71b183915ff5d56ee18b96cacdb414229fd3484c75fb0b4fb9d4a6654b.css" data-turbolinks-track="true">
+<link rel="stylesheet" media="screen" href="/css/careers.css" data-turbolinks-track="true">
 <link rel="stylesheet" media="screen" href="/css/css.css" data-company-font="true" data-turbolinks-track="true">
-<link rel="stylesheet" media="screen" href="/css/style_1533275798.css" data-company-css="true" data-turbolinks-track="true">
-{% if page.pageType == 'edit' %} 
-<link rel="stylesheet" media="screen" href="/css/careers_editor.css" >
-{% endif %}
-<script src="/js/careers-6340031891b045f0811e5b5883ba1b9e18a18711b5d1e4bc01f59b61c1d7fdb8.js" data-turbolinks-track="true"></script>
-<script src="/js/js.js"></script>
+<link rel="stylesheet" media="screen" href="/css/style.css" data-company-css="true" data-turbolinks-track="true">
+<!-- <script src="/js/careers.js" data-turbolinks-track="true"></script>
+<script src="/js/js.js"></script> -->
 
-<!-- Hotjar Tracking Code for http://acmeschool.careers.eteach.com/ -->
-<!-- <script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:497044,hjsv:5};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
-</script> -->
-
-
-
-
-
-<script type="text/javascript">
-function jobWidget(schools,el,department) {
-    var output = document.getElementById(el);
-    var count = schools.length;
-    var departmentString = "?department=";
-    var department = "";
-    if (output) {
-        var _loop = function _loop(i) {
-            $.ajax({
-                url: 'https://api.schoolrecruiter.co.uk/c/' + schools[i] + '/careers/offers' + departmentString + department,
-                method: 'GET',
-                success: function success(data) {
-                    var count = schools.length;
-                    var jobs = data.offers;
-
-                    for (var x = 0; x < jobs.length; x++) {
-                        var li = document.createElement('li');
-                        var a = document.createElement('a');
-                        var br = document.createElement('br');
-                        var span = document.createElement('span');
-                        var spanx = document.createElement('span');
-
-			spanx.className = "dept_name";
-                        a.textContent = jobs[x].title;
-                        a.href = jobs[x].careers_url;
-                        spanx.textContent = jobs[x].department;
-                        a.setAttribute('target','_self');
-                        //span.textContent = ' - ' + schools[i]; HIDES THE SCHOOL NAME
-                        li.appendChild(a);
-                        li.appendChild(br);
-                        li.appendChild(spanx);
-                        li.appendChild(span);
-                        output.appendChild(li);
-                    }
-                }
-            });
-        };
-
-        for (var i = 0; i < count; i++) {
-            _loop(i);
-        }
-
-    }
-}
-
-$(document).ready(function () {
-    var schools = ['acmegroup'];
-    jobWidget(schools,'group__jobs');
-});
-
-</script>
-
-{% if page.pageType == 'edit' %} 
-    <script src="/js/careers_editor.js"></script>
-    <script src="/js/slider_editor.js"></script>
-{% endif %}
-
-
-<!-- begin SnapEngage code -->
-<!-- <script type="text/javascript">
-  (function() {
-    var se = document.createElement('script'); se.type = 'text/javascript'; se.async = true;
-    se.src = '//storage.googleapis.com/code.snapengage.com/js/3e9c3946-b764-4e28-a070-13f73ece893b.js';
-    var done = false;
-    se.onload = se.onreadystatechange = function() {
-      if (!done&&(!this.readyState||this.readyState==='loaded'||this.readyState==='complete')) {
-        done = true;
-        /* Place your SnapEngage JS API code below */
-        /* SnapEngage.allowChatSound(true); Example JS API: Enable sounds for Visitors. */
-      }
-    };
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(se, s);
-  })();
-</script> -->
-<!-- end SnapEngage code -->
+<script src="/js/jquery.min.js" data-turbolinks-track="true"></script>
+<!-- <script src="/js/careers.js" data-turbolinks-track="true"></script> -->
+<script src="/js/slick.min.js" data-turbolinks-track="true"></script>

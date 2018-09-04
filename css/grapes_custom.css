@@ -1,0 +1,15 @@
+.gjs-cv-canvas {
+    min-width: 100%;
+}
+.gjs-one-bg {
+    background: unset;
+}
+.gjs-one-bg.gjs-block {
+    background-color: #15446b;
+}
+.block-display .fa-5 {
+    font-size: 15px;
+}
+.block-display .fa-3 {
+    font-size: 12px;
+}

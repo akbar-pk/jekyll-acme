@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  {% include head_edit.html %}
+</head>
+<body class="offers-controller index {{ page.bodyClass }}" data-no-turbolink="true">    
+
+{% include slider_left.html %}
+{% include slider_right.html %}
+<div id="grapes-edit">
+  <div class="panel__top">
+      <div class="panel__basic-actions"></div>
+  </div>
+  <div id="components-container" class="accept-block">
+    {{content}}
+  </div>
+</div>
+<script src="/js/grapes/gjs.js"></script>
+<script src="/js/simplebar.js"></script>
+<script src="/js/edit.js"></script>
+</body>
+</html>

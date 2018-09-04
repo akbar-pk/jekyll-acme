@@ -1,29 +1,5 @@
-
-  </div>
-  
-  <footer class="container">
+<footer class="container">
     <p class="text-center">
     <a class="footer-logo" href="http://www.eteach.com/">eTeach</a>
     </p>
-  </footer>
-
-  {% if page.pageType == 'edit' %}    
-    <script src="/js/slider_editor.js"></script>
-  {% endif %}
-
-  <script>
-    // Initialize and add the map
-    function initMap() {
-      // The location of Uluru
-      var uluru = {lat: 51.450267, lng: -0.573086};
-      // The map, centered at Uluru
-      var map = new google.maps.Map(
-          document.getElementById('map-component-1057'), {zoom: 16, center: uluru});
-      // The marker, positioned at Uluru
-      var marker = new google.maps.Marker({position: uluru, map: map});
-    }
-  </script>
-
-<script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvUI6XK2Bd0ybQ1W-uAHvMZQ35d-U-MUY&callback=initMap">
-</script>
+</footer>
