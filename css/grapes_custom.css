@@ -4,8 +4,17 @@
 .gjs-one-bg {
     background: unset;
 }
-.gjs-one-bg.gjs-block {
+.gjs-one-bg.gjs-block,.gjs-bg-main, .gjs-off-prv, 
+.gjs-sm-sector .gjs-sm-colorp-c, .gjs-clm-tags .gjs-sm-colorp-c,
+.gjs-select option, .gjs-clm-select option, .gjs-sm-select option, 
+.gjs-fields option, .gjs-sm-unit option {
     background-color: #15446b;
+}
+.gjs-field select.gjs-devices {
+    color: #fff;
+}
+.gjs-pn-panels .gjs-pn-btn, .gjs-device-label, .gjs-field select.gjs-devices {
+    color: #15446b;
 }
 .block-display .fa-5 {
     font-size: 15px;
@@ -22,6 +31,18 @@
     border: unset;
     padding: 9px 10px 9px 10px
 }
-#stylesHolder .gjs-sm-property {
+#stylesHolder .gjs-sm-property, .gjs-device-label {
     font-size: 1.5rem;
+}
+.gjs-pn-panels {
+    font-size: 1.2rem;
+}
+.gjs-pn-panels .gjs-pn-views, .gjs-pn-panels .gjs-pn-views-container {
+    display: none;
+}
+.gjs-pn-panels .gjs-pn-options {
+    right: 0;
+}
+.gjs-off-prv.fa.fa-eye-slash {
+    font-size: 2.9rem;
 }

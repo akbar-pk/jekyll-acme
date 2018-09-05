@@ -12026,7 +12026,7 @@ line-he .header-component .cover h1.brand a:hover {
   .gjs-layer i.gjs-layer-caret {
 	font-size: 1.01rem;
   }
-  .gjs-layer .gjs-one-bg {
+  .gjs-layer .gjs-one-bg, .gjs-sm-sector {
 	background: #15446b;
   }
 @media screen and (max-width:900px) {

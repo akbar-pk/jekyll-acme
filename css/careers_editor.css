@@ -4464,7 +4464,7 @@ sub {
 	height: 100%;
 	width: 0;
 	position: fixed;
-	z-index: 2;
+	z-index: 4;
 	top: 0;
 	background-color: #2a333d;
 	overflow-x: hidden;
