@@ -104,7 +104,7 @@ const editor = grapesjs.init({
                 attributes: { class:'gjs-block-section'},
                 content: `<div data-gjs-droppable="#wrapper" class="component text-component" id="section-1126">
                     <div class="container no-photo">
-                        <h3 class="section-title">Part of the Two Counties Trust</h3>
+                        <h3 class="section-title" [draggable=false]>Part of the Two Counties Trust</h3>
                         <h4 class="section-subtitle">We have multiple locations around the country</h4>
                         <div class="text row">
                             <div class="body col-xs-12">
@@ -497,7 +497,45 @@ const editor = grapesjs.init({
             keyWidth: 'flex-basis',
           },
         }]
-      }
+    },
+    styleManager : {
+        appendTo: '#styles-container',
+        sectors: 
+        [
+            // {
+            // name: 'Dimension',
+            // buildProps: ['width', 'min-height']
+            // },
+            {
+                name: 'Colors',
+                buildProps: ['color', 'background-color'],
+                open: false,
+            },
+            {
+                name: 'Shadows',
+                buildProps: ['box-shadow', 'text-shadow'],
+                open: false,
+            },
+            {
+                name: 'Fonts',
+                buildProps: ['font-size', 'font-family'],
+                open: false,
+            }, 
+            {
+                name: 'Spacing',
+                buildProps: ['margin', 'padding'],
+                open: false,
+            },
+            {
+                name: 'Borders',                
+                buildProps: [                                      
+                    'border'                   
+                ],
+                open: false,
+            },
+
+        ]
+    },      
   });
 
   var blockManager = editor.BlockManager;
@@ -549,6 +587,8 @@ const editor = grapesjs.init({
       }
     ],
   });
+
+  var styleManager = editor.StyleManager;
 
 
   

@@ -12010,6 +12010,7 @@ line-he .header-component .cover h1.brand a:hover {
   }
   #page-blocks .gjs-one-bg .gjs-blocks-c, #layersHolder .gjs-one-bg.gjs-two-color {
 	background-color: #222933;
+	background-color: unset;
   }
   .panel__right {
 	flex-basis: 230px;

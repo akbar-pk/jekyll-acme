@@ -3323,6 +3323,13 @@ sub {
 	z-index: 0
 }
 
+#editorRight.edit-controls .editor-content section h3:after {
+    width: 93%;
+}
+#editorRight.edit-controls .editor-content section h3 i {
+    font-size: 1.6rem;
+}
+
 #editor .editor-content section h3 span, .edit-controls .editor-content section h3 span {
 	background: #2a333d;
 	padding-right: 10px;
@@ -3334,7 +3341,31 @@ sub {
 	padding: 0;
 	margin: 0
 }
-
+#editorRight.edit-controls .editor-content ul.list li { 
+    margin: 0;
+}
+#editorRight.edit-controls .editor-content section {
+    margin: 20px 0 0 0;
+}
+#editorRight #layersHolder .gjs-pn-panel {
+    position: relative;
+}
+#editorRight.edit-controls .editor-content .gjs-blocks-c {
+	padding: 0 0 25px 0;
+}
+#editorRight.edit-controls section h3 a:hover, #editorRight.edit-controls section h3 a:focus {
+  text-decoration: unset;
+}
+#editorRight.edit-controls section h3 a .fa-chevron-circle-up,
+#editorRight.edit-controls section h3 a .fa-chevron-circle-down {
+    display: none;
+}
+#editorRight.edit-controls a.collapsed .fa-chevron-circle-down {
+    display: block;
+}
+#editorRight.edit-controls a:not(.collapsed) .fa-chevron-circle-up {
+    display: block;
+}
 #editor .editor-content ul.list>li, .edit-controls .editor-content ul.list>li {
 	height: 38px;
 	list-style: none;

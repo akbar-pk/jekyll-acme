@@ -13,3 +13,15 @@
 .block-display .fa-3 {
     font-size: 12px;
 }
+#stylesHolder .gjs-pn-panel {
+    padding: 0;
+    position: relative;
+}
+#stylesHolder .gjs-pn-panel .gjs-sm-title {
+    background: unset;
+    border: unset;
+    padding: 9px 10px 9px 10px
+}
+#stylesHolder .gjs-sm-property {
+    font-size: 1.5rem;
+}
