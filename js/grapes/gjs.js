@@ -30,7 +30,7 @@ const editor = grapesjs.init({
         scripts: [
            '../..//js/jquery.min.js',            
             '../../js/slick.min.js',
-            '../js/custom.js'
+            '../js/page.js'
         ]        
     },    
     blockManager: {
