@@ -1,4 +1,4 @@
-var eteachBlocks =[
+var eteachBlocks = [
     {
       id: 'section', // id is mandatory
       label: '<h6>Section</h6>', // You can use HTML/SVG inside labels
@@ -75,23 +75,23 @@ var eteachBlocks =[
                   <i class="fa fa-puzzle-piece fa-5" aria-hidden="true"></i>
               </div>`,
           attributes: { class:'gjs-block-section'},
-          content: `<div data-gjs-droppable="#wrapper" class="component text-component" id="section-1126">
-              <div class="container no-photo">
-                  <h3 class="section-title" [draggable=false]>Part of the Two Counties Trust</h3>
-                  <h4 class="section-subtitle">We have multiple locations around the country</h4>
-                  <div class="text row">
-                      <div class="body col-xs-12">
-                      <div style="text-align: center;">
-                      <a href="http://gloucesteracademy.careers.eteach.com"><img src="/images/gloucester-academy-logo.png" height="60px" hspace="10px" vspace="30"></a>
-                      <a href="#"><img src="/images/Gagle-Brook-Primary-School-287x300.jpg" height="60px" hspace="10px" vspace="30"></a>
-                      <a href="#"><img src="/images/nyland.jpg" height="60px" hspace="10px" vspace="30"></a>
-                      <a href="#"><img src="/images/Southwold-logo-drawn-300x300.jpg" height="60px" hspace="10px" vspace="30"></a>
-                      <a href="#"><img src="/images/croft.jpg" height="60px" hspace="10px" vspace="30"></a>
-                      <a href="#"><img src="/images/tregoze-web.jpg" height="60px" hspace="10px" vspace="30"></a>
-                      <a href="#"><img src="/images/ZOUCH-LOGO.png" height="60px" hspace="10px" vspace="30"></a>
+          content: `<div class="component text-component" id="section-1126" data-name="Partners">
+              <div class="container no-photo" data-gjs-draggable="false">
+                  <h3 class="section-title" data-gjs-draggable="false">Part of the Two Counties Trust</h3>
+                  <h4 class="section-subtitle" data-gjs-draggable="false">We have multiple locations around the country</h4>
+                  <div class="text row" data-gjs-draggable="false">
+                      <div class="body col-xs-12" data-gjs-draggable="false">
+                      <div style="text-align: center;" data-gjs-draggable="false">
+                      <a data-gjs-draggable="false" href="http://gloucesteracademy.careers.eteach.com"><img src="/images/gloucester-academy-logo.png" height="60px" hspace="10px" vspace="30"></a>
+                      <a data-gjs-draggable="false" href="#"><img src="/images/Gagle-Brook-Primary-School-287x300.jpg" height="60px" hspace="10px" vspace="30"></a>
+                      <a data-gjs-draggable="false" href="#"><img src="/images/nyland.jpg" height="60px" hspace="10px" vspace="30"></a>
+                      <a data-gjs-draggable="false" href="#"><img src="/images/Southwold-logo-drawn-300x300.jpg" height="60px" hspace="10px" vspace="30"></a>
+                      <a data-gjs-draggable="false" href="#"><img src="/images/croft.jpg" height="60px" hspace="10px" vspace="30"></a>
+                      <a data-gjs-draggable="false" href="#"><img src="/images/tregoze-web.jpg" height="60px" hspace="10px" vspace="30"></a>
+                      <a data-gjs-draggable="false" href="#"><img src="/images/ZOUCH-LOGO.png" height="60px" hspace="10px" vspace="30"></a>
                       </div>
                       
-                      <div id="group__jobs"></div>
+                      <div data-gjs-draggable="false" id="group__jobs"></div>
                       </div>
                   </div>
               </div>
@@ -104,30 +104,30 @@ var eteachBlocks =[
                   <i class="fa fa-puzzle-piece fa-5" aria-hidden="true"></i>
               </div>`,
           attributes: { class:'gjs-block-section'},
-          content: `<div class="component perks-component" id="section-3906">
-                      <div class="perks-background-image" style="background-image: url(/images/normal_photo_1515663110.jpg); background-color: white">
-                          <div class="overlay" style="background-color: #222933; opacity: 0.6;"></div>
-                          <div class="container">
-                              <div class="row">
-                              <div class="col-md-12">
-                                  <h3 class="section-title">Category</h3>
-                                  <h4 class="section-subtitle">A selection of what we have to offer</h4>
+          content: `<div class="component perks-component" id="section-3906" data-name="Category">
+                      <div data-gjs-draggable="false" class="perks-background-image" style="background-image: url(/images/normal_photo_1515663110.jpg); background-color: white">
+                          <div data-gjs-draggable="false" class="overlay" style="background-color: #222933; opacity: 0.6;"></div>
+                          <div data-gjs-draggable="false" class="container">
+                              <div data-gjs-draggable="false" class="row">
+                              <div data-gjs-draggable="false" class="col-md-12">
+                                  <h3 data-gjs-draggable="false" class="section-title">Category</h3>
+                                  <h4 data-gjs-draggable="false" class="section-subtitle">A selection of what we have to offer</h4>
                               </div>
                               </div>
-                              <div class="entry row row-centered">
-                              <div class="col-md-4">
-                                  <ul>
-                                  <li>
+                              <div data-gjs-draggable="false" class="entry row row-centered">
+                              <div data-gjs-draggable="false" class="col-md-4">
+                                  <ul data-gjs-draggable="false">
+                                  <li data-gjs-draggable="false">
                                       Fun
                                   </li>
                                   </ul>
                               </div>
-                              <div class="col-md-4">
-                                  <ul>
+                              <div class="col-md-4" data-gjs-draggable="false">
+                                  <ul data-gjs-draggable="false">
                                   </ul>
                               </div>
-                              <div class="col-md-4">
-                                  <ul>
+                              <div data-gjs-draggable="false" class="col-md-4">
+                                  <ul data-gjs-draggable="false">
                                   </ul>
                               </div>
                               </div>
@@ -142,43 +142,43 @@ var eteachBlocks =[
                   <i class="fa fa-puzzle-piece fa-5" aria-hidden="true"></i>
               </div>`,
           attributes: { class:'gjs-block-section'},
-          content: `<div class="component offers-component" id="section-838">
-          <div class="container">
-            <h3 class="section-title">Current open Vacancies at Ashfield School</h3>
-            <h4 class="section-subtitle">Take a look below at our current openings, we would like to hear from you.</h4>
-            <div class="filters-view">
-              <div class="jobs-container" id="jobs-list">
-                <div class="filters-container filters hidden-xs">
-                  <div class="filter filter__search">
+          content: `<div class="component offers-component" id="section-838" data-name="Jobs">
+          <div data-gjs-draggable="false" class="container">
+            <h3 data-gjs-draggable="false" class="section-title">Current open Vacancies at Ashfield School</h3>
+            <h4 data-gjs-draggable="false" class="section-subtitle">Take a look below at our current openings, we would like to hear from you.</h4>
+            <div data-gjs-draggable="false" class="filters-view">
+              <div data-gjs-draggable="false" class="jobs-container" id="jobs-list">
+                <div data-gjs-draggable="false" class="filters-container filters hidden-xs">
+                  <div data-gjs-draggable="false" class="filter filter__search">
                     <input type="text" name="search" id="search-filter" class="search form-control" placeholder="Search...">
                   </div>
-                  <div class="filter">
-                    <select name="department" id="department" class="form-control"><option value="">All departments</option></select>
+                  <div data-gjs-draggable="false" class="filter">
+                    <select data-gjs-draggable="false" name="department" id="department" class="form-control"><option value="">All departments</option></select>
                   </div>
-                  <div class="filter">
-                    <select name="city" id="city" class="form-control"><option value="">All cities</option><option value="london">london</option></select>
+                  <div data-gjs-draggable="false" class="filter">
+                    <select data-gjs-draggable="false" name="city" id="city" class="form-control"><option value="">All cities</option><option value="london">london</option></select>
                   </div>
-                  <div class="filter filter__clear">
-                    <a class="clear-filters" href="#">Clear</a>
+                  <div data-gjs-draggable="false" class="filter filter__clear">
+                    <a data-gjs-draggable="false" class="clear-filters" href="#">Clear</a>
                   </div>
                 </div>
-                <div class="list-container list">
-                  <a class="job job__row" id="job-8726" href="/o/teach"><div class="job__column job__column--title">
-                    <h5 class="title">teach</h5>
+                <div data-gjs-draggable="false" class="list-container list">
+                  <a data-gjs-draggable="false" class="job job__row" id="job-8726" href="/o/teach"><div class="job__column job__column--title">
+                    <h5 data-gjs-draggable="false" class="title">teach</h5>
                   </div>
-                  <div class="job__column job__column--meta">
-                    <span class="location">
+                  <div data-gjs-draggable="false" class="job__column job__column--meta">
+                    <span data-gjs-draggable="false" class="location">
                       london
                     </span>
                   </div>
-                  <div class="job-data hidden">
+                  <div data-gjs-draggable="false" class="job-data hidden">
                     <div class="department"></div>
                     <div class="city">london</div>
                   </div>
                   </a>
                 </div>
-                <div class="empty-state hidden">
-                  <h3>
+                <div data-gjs-draggable="false" class="empty-state hidden">
+                  <h3 data-gjs-draggable="false">
                     No offers found
                   </h3>
                 </div>
@@ -194,16 +194,16 @@ var eteachBlocks =[
                   <i class="fa fa-puzzle-piece fa-5" aria-hidden="true"></i>
               </div>`,
           attributes: { class:'gjs-block-section'},
-          content: `<div class="component team-component" id="section-3904">
-          <div class="container">
-            <h3 class="section-title">Our Team</h3>
-            <h4 class="section-subtitle">The people behind our School</h4>
-            <div class="members row">
-              <div class="member col-md-2 col-sm-4 col-xs-6">
-                <img class="img-circle" src="/images/thumb_avatar_1515662842.jpg" alt="Thumb avatar 1515662842">
-                <div class="titles">
-                  <div class="h5 truncate">mrs</div>
-                  <div class="department truncate">teacher</div>
+          content: `<div class="component team-component" id="section-3904" data-name="Team">
+          <div data-gjs-draggable="false" class="container">
+            <h3 data-gjs-draggable="false" class="section-title">Our Team</h3>
+            <h4 data-gjs-draggable="false" class="section-subtitle">The people behind our School</h4>
+            <div data-gjs-draggable="false" class="members row">
+              <div data-gjs-draggable="false" class="member col-md-2 col-sm-4 col-xs-6">
+                <img data-gjs-draggable="false" class="img-circle" src="/images/thumb_avatar_1515662842.jpg" alt="Thumb avatar 1515662842">
+                <div data-gjs-draggable="false" class="titles">
+                  <div data-gjs-draggable="false" class="h5 truncate">mrs</div>
+                  <div data-gjs-draggable="false" class="department truncate">teacher</div>
                 </div>
               </div>
             </div>
@@ -217,34 +217,34 @@ var eteachBlocks =[
                   <i class="fa fa-puzzle-piece fa-5" aria-hidden="true"></i>
               </div>`,
           attributes: { class:'gjs-block-section'},
-          content: `<div class="component perks-component" id="section-3905">
-          <div class="perks-background-image">
-            <div class="overlay" style="background-color: #222933; opacity: 0.6;"></div>
-            <div class="container">
-              <div class="row">
-                <div class="col-md-12">
-                  <h3 class="section-title">Perks & Benefits</h3>
-                  <h4 class="section-subtitle">A selection of what we have to offer</h4>
+          content: `<div class="component perks-component" id="section-3905" data-name="Perks">
+          <div data-gjs-draggable="false" class="perks-background-image">
+            <div data-gjs-draggable="false" class="overlay" style="background-color: #222933; opacity: 0.6;"></div>
+            <div data-gjs-draggable="false" class="container">
+              <div data-gjs-draggable="false" class="row">
+                <div data-gjs-draggable="false" class="col-md-12">
+                  <h3 data-gjs-draggable="false" class="section-title">Perks & Benefits</h3>
+                  <h4 data-gjs-draggable="false" class="section-subtitle">A selection of what we have to offer</h4>
                 </div>
               </div>
-              <div class="entry row row-centered">
-                <div class="col-md-4">
-                  <ul>
-                    <li>
+              <div data-gjs-draggable="false" class="entry row row-centered">
+                <div data-gjs-draggable="false" class="col-md-4">
+                  <ul data-gjs-draggable="false">
+                    <li data-gjs-draggable="false">
                       Car parking
                     </li>
                   </ul>
                 </div>
-                <div class="col-md-4">
-                  <ul>
-                    <li>
+                <div data-gjs-draggable="false" class="col-md-4">
+                  <ul data-gjs-draggable="false">
+                    <li data-gjs-draggable="false">
                       Money
                     </li>
                   </ul>
                 </div>
-                <div class="col-md-4">
-                  <ul>
-                    <li>
+                <div data-gjs-draggable="false" class="col-md-4">
+                  <ul data-gjs-draggable="false">
+                    <li data-gjs-draggable="false">
                       Fun
                     </li>
                   </ul>
@@ -261,21 +261,21 @@ var eteachBlocks =[
                   <i class="fa fa-puzzle-piece fa-5" aria-hidden="true"></i>
               </div>`,
           attributes: { class:'gjs-block-section'},
-          content: `<div class="component text-component" id="section-1208">
-          <div class="container no-photo">
-            <h3 class="section-title">About us</h3>
-            <h4 class="section-subtitle">What we stand for</h4>
-            <div class="text row">
-              <div class="body col-xs-12">
-                <div id="one" style="border:0px solid red;">
+          content: `<div class="component text-component" id="section-1208" data-name="About">
+          <div data-gjs-draggable="false" class="container no-photo">
+            <h3 data-gjs-draggable="false" class="section-title">About us</h3>
+            <h4 data-gjs-draggable="false" class="section-subtitle">What we stand for</h4>
+            <div data-gjs-draggable="false" class="text row">
+              <div data-gjs-draggable="false" class="body col-xs-12">
+                <div data-gjs-draggable="false" id="one" style="border:0px solid red;">
                 
-                <a href="mailto:job.82l3m@acmeschool.schoolrecruiter.co.uk"><img src="/images/join-talent-pool-2.png" style="float:right; padding:20px;" alt="Join our Talent Pool" class=""></a>
+                <a data-gjs-draggable="false" href="mailto:job.82l3m@acmeschool.schoolrecruiter.co.uk"><img src="/images/join-talent-pool-2.png" style="float:right; padding:20px;" alt="Join our Talent Pool" class=""></a>
                 
-                <h3>Welcome to ACME School</h3>
+                <h3 data-gjs-draggable="false">Welcome to ACME School</h3>
                 
-                <p>ACME School is a school like no other.  Whether it is the smiles on the faces of our boys and girls, their zest for life, or their genuine desire to make the very best of themselves, it is obvious to any visitor that pupils here flourish.  As well they might, given the impressive buildings and grounds in which they live and learn.  But behind the stunning architecture lies a deep and genuine commitment to provide an education that is unsurpassed anywhere in the world.</p>
+                <p data-gjs-draggable="false">ACME School is a school like no other.  Whether it is the smiles on the faces of our boys and girls, their zest for life, or their genuine desire to make the very best of themselves, it is obvious to any visitor that pupils here flourish.  As well they might, given the impressive buildings and grounds in which they live and learn.  But behind the stunning architecture lies a deep and genuine commitment to provide an education that is unsurpassed anywhere in the world.</p>
                 
-                <p>ACME School is rightly known for high academic standards and outstanding examination results, but truly excellent education is about more than academic achievement alone.  It is about developing a passion for learning and a capacity for independent thinking.  We also expect pupils to develop moral values, acquire self-confidence without arrogance, and to discover genuine interests that extend beyond the classroom. Test</p>
+                <p data-gjs-draggable="false">ACME School is rightly known for high academic standards and outstanding examination results, but truly excellent education is about more than academic achievement alone.  It is about developing a passion for learning and a capacity for independent thinking.  We also expect pupils to develop moral values, acquire self-confidence without arrogance, and to discover genuine interests that extend beyond the classroom. Test</p>
                 
                 </div>
               </div>
@@ -290,40 +290,40 @@ var eteachBlocks =[
                   <i class="fa fa-puzzle-piece fa-5" aria-hidden="true"></i>
               </div>`,
           attributes: { class:'gjs-block-section'},
-          content: `<div class="component text-component" id="section-1180">
-          <div class="container no-photo">
-            <h3 class="section-title">Why work at ACME School</h3>
-            <h4 class="section-subtitle">Our benefits</h4>
-            <div class="text row">
-              <div class="body col-xs-12">
-                <div class="careers__faqs">
-                <ul class="faqs">
-                    <li class="faqs__item">
+          content: `<div class="component text-component" id="section-1180" data-name="Why Work">
+          <div data-gjs-draggable="false" class="container no-photo">
+            <h3 data-gjs-draggable="false" class="section-title">Why work at ACME School</h3>
+            <h4 data-gjs-draggable="false" class="section-subtitle">Our benefits</h4>
+            <div data-gjs-draggable="false" class="text row">
+              <div data-gjs-draggable="false" class="body col-xs-12">
+                <div data-gjs-draggable="false" class="careers__faqs">
+                <ul data-gjs-draggable="false" class="faqs">
+                    <li data-gjs-draggable="false" class="faqs__item">
                         <img src="/images/culture.gif" alt="" class="faqs__icon">
                         <h3 class="faqs__title">Great culture</h3>
                         <p class="faqs__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In diam velit, auctor eget leo sed, faucibus consequat erat.</p>
                     </li>
-                    <li class="faqs__item">
+                    <li data-gjs-draggable="false" class="faqs__item">
                         <img src="/images/locations.gif" alt="" class="faqs__icon">
                         <h3 class="faqs__title">Multi locations</h3>
                         <p class="faqs__description">Quisque et placerat velit. Pellentesque suscipit, ex quis facilisis pulvinar, risus turpis hendrerit purus, et tempor lorem nisi in sem.</p>
                     </li>
-                    <li class="faqs__item">
+                    <li data-gjs-draggable="false" class="faqs__item">
                         <img src="/images/flexible.gif" alt="" class="faqs__icon">
                         <h3 class="faqs__title">Flexible working hours</h3>
                         <p class="faqs__description">Quisque et placerat velit. Pellentesque suscipit, ex quis facilisis pulvinar, risus turpis hendrerit purus, et tempor lorem nisi in sem.</p>
                     </li>
-                    <li class="faqs__item">
+                    <li data-gjs-draggable="false" class="faqs__item">
                         <img src="/images/holiday.gif" alt="" class="faqs__icon">
                         <h3 class="faqs__title">24 days of holiday</h3>
                         <p class="faqs__description">Quisque et placerat velit. Pellentesque suscipit, ex quis facilisis pulvinar, risus turpis hendrerit purus, et tempor lorem nisi in sem.</p>
                     </li>
-                    <li class="faqs__item">
+                    <li data-gjs-draggable="false" class="faqs__item">
                         <img src="/images/health.gif" alt="" class="faqs__icon">
                         <h3 class="faqs__title">Private health insurance</h3>
                         <p class="faqs__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In diam velit, auctor eget leo sed, faucibus consequat erat.</p>
                     </li>
-                    <li class="faqs__item">
+                    <li data-gjs-draggable="false" class="faqs__item">
                         <img src="/images/gym.gif" alt="" class="faqs__icon">
                         <h3 class="faqs__title">Discounted gym access</h3>
                         <p class="faqs__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In diam velit, auctor eget leo sed, faucibus consequat erat.</p>
@@ -342,39 +342,51 @@ var eteachBlocks =[
                   <i class="fa fa-puzzle-piece fa-5" aria-hidden="true"></i>
               </div>`,
           attributes: { class:'gjs-block-section'},
-          content: `<div class="component gallery-component" id="section-1058">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <h3 class="section-title">Our School</h3>
-                <h4 class="section-subtitle">A great place to work</h4>
-              </div>
-            </div>
-          </div>
-          <div class="gallery-carousel">
-            <div class="photo">
-              <img height="254" src="/images/normal_photo_1470129739.JPG" alt="Normal photo 1470129739">
-            </div>
-            <div class="photo">
-              <img height="254" src="/images/normal_photo_1470129745.jpg" alt="Normal photo 1470129745">
-            </div>
-            <div class="photo">
-              <img height="254" src="/images/normal_photo_1470129741.jpg" alt="Normal photo 1470129741">
-            </div>
-            <div class="photo">
-              <img height="254" src="/images/normal_photo_1470129744.jpg" alt="Normal photo 1470129744">
-            </div>
-            <div class="photo">
-              <img height="254" src="/images/normal_photo_1470129743.jpg" alt="Normal photo 1470129743">
-            </div>
-            <div class="photo">
-              <img height="254" src="/images/normal_photo_1470129740.jpg" alt="Normal photo 1470129740">
-            </div>
-            <div class="photo">
-              <img height="254" src="/images/normal_photo_1470129738.jpg" alt="Normal photo 1470129738">
-            </div>
-          </div>
-          </div>`
+          content: {
+            content: `<div class="component gallery-component" id="section-1058"  data-name="Our School">
+                <div data-gjs-draggable="false" class="container">
+                <div data-gjs-draggable="false" class="row">
+                    <div data-gjs-draggable="false" class="col-md-12">
+                    <h3 data-gjs-draggable="false" class="section-title">Our School</h3>
+                    <h4 data-gjs-draggable="false" class="section-subtitle">A great place to work</h4>
+                    </div>
+                </div>
+                </div>
+                <div data-gjs-draggable="false" class="gallery-carousel">
+                <div data-gjs-draggable="false" class="photo">
+                    <img data-gjs-draggable="false" height="254" src="/images/normal_photo_1470129739.JPG" alt="Normal photo 1470129739">
+                </div>
+                <div data-gjs-draggable="false" class="photo">
+                    <img data-gjs-draggable="false" height="254" src="/images/normal_photo_1470129745.jpg" alt="Normal photo 1470129745">
+                </div>
+                <div data-gjs-draggable="false" class="photo">
+                    <img data-gjs-draggable="false" height="254" src="/images/normal_photo_1470129741.jpg" alt="Normal photo 1470129741">
+                </div>
+                <div data-gjs-draggable="false" class="photo">
+                    <img data-gjs-draggable="false" height="254" src="/images/normal_photo_1470129744.jpg" alt="Normal photo 1470129744">
+                </div>
+                <div class="photo">
+                    <img height="254" src="/images/normal_photo_1470129743.jpg" alt="Normal photo 1470129743">
+                </div>
+                <div data-gjs-draggable="false" class="photo">
+                    <img data-gjs-draggable="false" height="254" src="/images/normal_photo_1470129740.jpg" alt="Normal photo 1470129740">
+                </div>
+                <div data-gjs-draggable="false" class="photo">
+                    <img data-gjs-draggable="false" height="254" src="/images/normal_photo_1470129738.jpg" alt="Normal photo 1470129738">
+                </div>
+                </div>
+                </div>`,
+    
+            script: function(){
+                $(".gallery-component .gallery-carousel:not(.slick-initialized)").slick({
+                    slidesToScroll: 1,
+                    infinite: !0,
+                    centerMode: !0,
+                    variableWidth: !0,
+                    adaptiveHeight: false
+                });
+            }
+        }   
       },
       {
           id: 'location',
@@ -383,16 +395,16 @@ var eteachBlocks =[
                   <i class="fa fa-puzzle-piece fa-5" aria-hidden="true"></i>
               </div>`,
           attributes: { class:'gjs-block-section'},
-          content: `<div class="component map-component" id="section-1057">
-          <div class="container">
-            <h3 class="section-title">Location</h3>
-            <h4 class="section-subtitle">Street, City</h4>
+          content: `<div class="component map-component" id="section-1057" data-name="Location">
+          <div data-gjs-draggable="false" class="container">
+            <h3 data-gjs-draggable="false" class="section-title">Location</h3>
+            <h4 data-gjs-draggable="false" class="section-subtitle">Street, City</h4>
           </div>
-          <div class="map-holder" id="map-component-1057"></div>
-          <div class="markers">
-            <div class="marker" data-lat="51.4502669" data-lng="-0.573086200000034" data-title="ACME School">
-              <h5>ACME School</h5>
-              <div class="content"><p>Burfield Road, Old Windsor, Berkshire, SL4 2JJ, UK</p></div>
+          <div data-gjs-draggable="false" class="map-holder" id="map-component-1057"></div>
+          <div data-gjs-draggable="false" class="markers">
+            <div data-gjs-draggable="false" class="marker" data-lat="51.4502669" data-lng="-0.573086200000034" data-title="ACME School">
+              <h5 data-gjs-draggable="false">ACME School</h5>
+              <div data-gjs-draggable="false" class="content"><p>Burfield Road, Old Windsor, Berkshire, SL4 2JJ, UK</p></div>
             </div>
           </div>
           </div>`
@@ -404,14 +416,14 @@ var eteachBlocks =[
                   <i class="fa fa-puzzle-piece fa-5" aria-hidden="true"></i>
               </div>`,
           attributes: { class:'gjs-block-section'},
-          content: `<div class="component videos-component" id="section-3908">
-          <div class="container">
-            <h3 class="section-title">Videos</h3>
-            <h4 class="section-subtitle">A great place to work</h4>
-            <div class="videos row">
-              <div class="col-md-6">
-                <div class="video-wrapper">
-                  <iframe allowfullscreen="allowfullscreen" class="youtube" frameborder="0" height="360" src="https://youtu.be/mN-mKXkNyEk" width="640"></iframe>
+          content: `<div class="component videos-component" id="section-3908" data-name="Videos">
+          <div data-gjs-draggable="false" class="container">
+            <h3 data-gjs-draggable="false" class="section-title">Videos</h3>
+            <h4 data-gjs-draggable="false" class="section-subtitle">A great place to work</h4>
+            <div data-gjs-draggable="false" class="videos row">
+              <div data-gjs-draggable="false" class="col-md-6">
+                <div data-gjs-draggable="false" class="video-wrapper">
+                  <iframe data-gjs-draggable="false" allowfullscreen="allowfullscreen" class="youtube" frameborder="0" height="360" src="https://youtu.be/mN-mKXkNyEk" width="640"></iframe>
                 </div>
               </div>
             </div>
@@ -425,26 +437,40 @@ var eteachBlocks =[
                   <i class="fa fa-puzzle-piece fa-5" aria-hidden="true"></i>
               </div>`,
           attributes: { class:'gjs-block-section'},
-          content: `<div class="component quote-component" id="section-3907">
-          <div class="container">
-            <div class="entry">
-              <p>It's great working with you!</p>
+          content: `<div class="component quote-component" id="section-3907" data-name="Feedback">
+          <div data-gjs-draggable="false" class="container">
+            <div data-gjs-draggable="false" class="entry">
+              <p data-gjs-draggable="false">It's great working with you!</p>
             </div>
-            <div class="row row-centered">
+            <div data-gjs-draggable="false" class="row row-centered">
               <div class="member">
-                <div class="col-md-2 col-centered xs-hidden">
-                  <div class="avatar">
-                    <img class="img-circle" src="/images/thumb_photo_1515663314.jpg" alt="Thumb photo 1515663314">
+                <div data-gjs-draggable="false" class="col-md-2 col-centered xs-hidden">
+                  <div data-gjs-draggable="false" class="avatar">
+                    <img data-gjs-draggable="false" class="img-circle" src="/images/thumb_photo_1515663314.jpg" alt="Thumb photo 1515663314">
                   </div>
                 </div>
-                <div class="col-md-2 col-centered">
-                  <div class="titles">
-                    <div class="h5">John Doe</div>
-                    <div class="department">CEO, Acme</div>
+                <div data-gjs-draggable="false" class="col-md-2 col-centered">
+                  <div data-gjs-draggable="false" class="titles">
+                    <div data-gjs-draggable="false" class="h5">John Doe</div>
+                    <div data-gjs-draggable="false" class="department">CEO, Acme</div>
                   </div>
                 </div>
               </div>
             </div>
           </div>`
-      }
+      },      
+      {
+        id: 'default-map',
+        label: `<h6>Default Map</h6>                
+        <div class="block-display">
+            <i class="fa fa-map-marker fa-5" aria-hidden="true"></i>
+        </div>`,
+        content: {
+          type: 'map', // Built-in 'map' component
+          style: {
+            height: '400px'
+          },
+          removable: false, // Once inserted it can't be removed
+        }
+      },
   ]

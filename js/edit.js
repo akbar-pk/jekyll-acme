@@ -22,4 +22,5 @@
         $("#editorRight").css("width", 0);
         $("#rightSliderOpenButton").fadeIn(400);
     });
+   
   });

@@ -36,10 +36,10 @@ const editor = grapesjs.init({
     blockManager: {
         appendTo: '#page-blocks',
         blocks: eteachBlocks
-      },
-      layerManager: {
+    },
+    layerManager: {
         appendTo: '#layers-container'
-      },
+    },
       // We define a default panel as a sidebar to contain layers
     //   panels: {
     //     defaults: [{
@@ -98,59 +98,4 @@ const editor = grapesjs.init({
         ]
     },      
   });
-
-  var blockManager = editor.BlockManager;
-  blockManager.add('my-map-block', {
-    label: `<h6>Map</h6>                
-    <div class="block-display">
-        <i class="fa fa-map-marker fa-5" aria-hidden="true"></i>
-    </div>`,
-    content: {
-      type: 'map', // Built-in 'map' component
-      style: {
-        height: '400px'
-      },
-      removable: false, // Once inserted it can't be removed
-    }
-  });
-  //editor.Panels.addPanel(eteachPanels);
-//   editor.Panels.addPanel({
-//     id: 'panel-top',
-//     el: '.panel__top',
-//   });
-//   editor.Panels.addPanel({
-//     id: 'basic-actions',
-//     el: '.panel__basic-actions',
-//     buttons: [
-//       {
-//         id: 'visibility',
-//         active: true, // active by default
-//         className: 'btn-toggle-borders hide',
-//         label: '<u>B</u>',
-//         command: 'sw-visibility', // Built-in command
-//       }, {
-//         id: 'export',
-//         className: 'btn-open-export',
-//         label: 'Exp',
-//         command: 'export-template',
-//         context: 'export-template', // For grouping context of buttons from the same panel
-//       }, {
-//         id: 'show-json',
-//         className: 'btn-show-json',
-//         label: 'JSON',
-//         context: 'show-json',
-//         command(editor) {
-//           editor.Modal.setTitle('Components JSON')
-//             .setContent(`<textarea style="width:100%; height: 250px;">
-//               ${JSON.stringify(editor.getComponents())}
-//             </textarea>`)
-//             .open();
-//         },
-//       }
-//     ],
-//   });
-
-
-
-
 });

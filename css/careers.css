@@ -6078,3 +6078,16 @@ body:after {
 	text-decoration: none;
 	color: #AFB6BA
 }
+/* #wrapper .component {
+    position: relative;
+}
+#wrapper .component.gjs-hovered::before, #wrapper .gjs-comp-selected .component.gjs-hovered::before {    
+	content:"";
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); */
+}

@@ -28608,7 +28608,12 @@ module.exports = {
   },
   onHovered: function onHovered(em, component) {
     var trg = component && component.getEl();
+    
     if (trg) {
+      if($(trg).attr('data-name')) {
+        var layerText = $(trg).attr('data-name');       
+        //$('.gjs-layer-children .gjs-hovered .gjs-layer-name').text(layerText);
+      }
       var pos = this.getElementPos(trg);
       this.updateBadge(trg, pos);
       this.updateHighlighter(trg, pos);
@@ -31439,7 +31444,7 @@ module.exports = function () {
       var em = c.em;
       var model = em.get('componentHovered');
       var previous = em.previous('componentHovered');
-      var state = 'hovered';
+      var state = 'hovered';      
 
       // Deselect the previous component
       previous && previous.get('status') == state && previous.set({
@@ -32178,8 +32183,18 @@ var Component = Backbone.Model.extend(_Styleable2.default).extend({
    * */
   getName: function getName() {
     var customName = this.get('name') || this.get('custom-name');
+    var thisAttributes = this.get('attributes');
+    var blockName = "Box";
+    if(thisAttributes) {
+      for(var key in thisAttributes) {
+        if(key == 'data-name') {
+          blockName = thisAttributes[key];
+        }  
+      }
+    }
+    
     var tag = this.get('tagName');
-    tag = tag == 'div' ? 'box' : tag;
+    tag = tag == 'div' ? blockName : tag;
     var name = this.get('type') || tag;
     name = name.charAt(0).toUpperCase() + name.slice(1);
     return customName || name;
@@ -34567,6 +34582,7 @@ module.exports = _backbone2.default.View.extend({
         break;
       case 'hovered':
         cls = !opts.avoidHover ? actualCls + ' ' + hoveredCls : '';
+        //console.log("Test 2");
         break;
     }
 
@@ -34655,6 +34671,10 @@ module.exports = _backbone2.default.View.extend({
     var model = this.model;
     var attrs = { 'data-gjs-type': model.get('type') || 'default' };
     var attr = model.get('attributes');
+    // if(attr['data-name']) {
+    //   console.log(attr);
+    // }
+    
     var src = model.get('src');
 
     for (var key in attr) {
@@ -38583,6 +38603,7 @@ module.exports = _backbone2.default.View.extend({
     var level = this.level + 1;
     var gut = 30 + level * 10 + 'px';
     var name = model.getName();
+    
 
     return '\n      ' + (hidable ? '<i class="' + pfx + 'layer-vis fa fa-eye ' + (this.isVisible() ? '' : 'fa-eye-slash') + '" data-toggle-visible></i>' : '') + '\n      <div class="' + clsTitleC + '">\n        <div class="' + clsTitle + '" style="padding-left: ' + gut + '" data-toggle-select>\n          <div class="' + pfx + 'layer-title-inn">\n            <i class="' + clsCaret + '" data-toggle-open></i>\n            ' + model.getIcon() + '\n            <span class="' + clsInput + '" data-name>' + name + '</span>\n          </div>\n        </div>\n      </div>\n      <div class="' + this.clsCount + '">' + (count || '') + '</div>\n      <div class="' + this.clsMove + '" data-toggle-move>\n        <i class="fa fa-arrows"></i>\n      </div>\n      <div class="' + this.clsChildren + '"></div>';
   },
@@ -38617,6 +38638,7 @@ module.exports = _backbone2.default.View.extend({
     this.$el.data('model', model);
     this.$el.data('collection', components);
     model.viewLayer = this;
+    //console.log(components);
   },
   getVisibilityEl: function getVisibilityEl() {
     if (!this.eyeEl) {
