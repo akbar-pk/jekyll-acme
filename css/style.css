@@ -10922,6 +10922,10 @@ line-he .header-component .cover h1.brand a:hover {
 	overflow: hidden
 }
 
+.offers-component .filters-view .filters .filter__clear.search-button-holder {
+    max-width: 100px;
+}
+
 .offers-component .filters-view .filters .filter__clear .clear-filters {
 	vertical-align: middle;
 	color: #5f6a6d
@@ -11987,48 +11991,6 @@ line-he .header-component .cover h1.brand a:hover {
 	line-height: 30px;
 }
 
-/* editor */
-#grapes-editor {
-	width: auto;
-	height: auto;
-	min-height: auto;
-}
-.editor-row {
-	display: flex;
-	justify-content: flex-start;
-	align-items: stretch;
-	flex-wrap: nowrap;
-	height: 300px;
-  }
-  
-  .editor-canvas {
-	flex-grow: 1;
-  }
-  .gjs-blocks-cs .gjs-block {
-	min-height: 64px;
-	padding: .5em;
-  }
-  #page-blocks .gjs-one-bg .gjs-blocks-c, #layersHolder .gjs-one-bg.gjs-two-color {
-	background-color: #222933;
-	background-color: unset;
-  }
-  .panel__right {
-	flex-basis: 230px;
-	position: relative;
-	overflow-y: auto;
-  }
-  .gjs-layer {
-	  font-size: 1rem !important;
-  }
-  .gjs-layer i.gjs-layer-vis.fa-eye {
-	font-size: 1.4rem;
-  }
-  .gjs-layer i.gjs-layer-caret {
-	font-size: 1.01rem;
-  }
-  .gjs-layer .gjs-one-bg, .gjs-sm-sector {
-	background: #15446b;
-  }
 @media screen and (max-width:900px) {
 	.faqs__item {
 		width: 50%;

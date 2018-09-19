@@ -1,3 +1,4 @@
+/* Grapes JS Override */
 .gjs-cv-canvas {
     min-width: 100%;
 }
@@ -48,3 +49,51 @@
     position: absolute;
     right: 0;
 }
+/* editor */
+#grapes-editor {
+	width: auto;
+	height: auto;
+	min-height: auto;
+}
+.editor-row {
+	display: flex;
+	justify-content: flex-start;
+	align-items: stretch;
+	flex-wrap: nowrap;
+	height: 300px;
+  }
+  
+  .editor-canvas {
+	flex-grow: 1;
+  }
+  .gjs-blocks-cs .gjs-block {
+	min-height: 64px;
+	padding: .5em;
+  }
+  #page-blocks .gjs-one-bg .gjs-blocks-c, #layersHolder .gjs-one-bg.gjs-two-color {
+	background-color: #222933;
+	background-color: unset;
+  }
+  .panel__right {
+	flex-basis: 230px;
+	position: relative;
+	overflow-y: auto;
+  }
+  .gjs-layer {
+	  font-size: 1rem !important;
+  }
+  .gjs-layer i.gjs-layer-vis.fa-eye {
+	font-size: 1.4rem;
+  }
+  .gjs-layer i.gjs-layer-caret {
+	font-size: 1.01rem;
+  }
+  .gjs-layer .gjs-one-bg, .gjs-sm-sector {
+	background: #15446b;
+  }
+  .icon-undo.gjs-pn-btn.gjs-pn-active,
+  .icon-redo.gjs-pn-btn.gjs-pn-active,
+  .icon-blank.gjs-pn-btn.gjs-pn-active {
+    background-color: unset;
+    box-shadow: unset;
+  }

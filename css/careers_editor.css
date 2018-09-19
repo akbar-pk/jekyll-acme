@@ -4493,3 +4493,6 @@ sub {
 	-ms-transition: 0.3s;
 	-o-transition: 0.3s;
 }
+html body #editor i.fa, html body #editorRight i.fa {
+	color: #2581cd !important;
+}	

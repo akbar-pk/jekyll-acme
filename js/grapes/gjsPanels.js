@@ -36,6 +36,23 @@ var eteachPanels = {
           context: ful,
           attributes: { title: 'Fullscreen' }
         },
+        {
+          id: 'undo',
+          className: 'fa fa-undo icon-undo',
+          command: 'undo',
+          attributes: { title: 'Undo (CTRL/CMD + Z)'}
+        },{
+          id: 'redo',
+          className: 'fa fa-repeat icon-redo',
+          command: 'redo',
+          attributes: { title: 'Redo (CTRL/CMD + SHIFT + Z)' }
+        },
+        {
+          id: 'clean-all',
+          className: 'fa fa-trash icon-blank',
+          command: 'clean-all',
+          attributes: { title: 'Empty canvas' }
+        }
       ]
     },
     {

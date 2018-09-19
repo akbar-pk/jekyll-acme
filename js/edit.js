@@ -1,4 +1,4 @@
-  $(document).ready(function(){
+$(document).ready(function(){
     //Slider Left
     $(document).on('click', '#leftSliderOpenButton', function(){
           $("#editor").css("width", 300);   
@@ -24,3 +24,5 @@
     });
    
   });
+
+  

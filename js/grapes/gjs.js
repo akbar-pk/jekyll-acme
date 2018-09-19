@@ -1,12 +1,3 @@
-
-$.when(
-    $.getScript('/js/grapes/gjsPanels.js'),
-    $.getScript('/js/grapes/gjsBlocks.js'),
-    $.Deferred(function( deferred ){
-        $( deferred.resolve );
-    })
-).done(function(){
-
 const editor = grapesjs.init({
     // Indicate where to init the editor. You can also pass an HTMLElement
     container: '#components-container',
@@ -14,11 +5,12 @@ const editor = grapesjs.init({
     // As an alternative we could use: `components: '<h1>Hello World Component!</h1>'`,
     fromElement: true,
     // Size of the editor
-    height: '800px',
+    height: windowHeight+'px',
     width: '100%',
     
     // Disable the storage manager for the moment
-    storageManager: { type: null },
+    storageManager: { type: null },    
+
     // Avoid any default panel
     panels: eteachPanels,
     canvas: {
@@ -97,5 +89,21 @@ const editor = grapesjs.init({
 
         ]
     },      
-  });
+  }); 
+
+editor.on('component:add', (model) => {
+	console.log('Edited');
+});
+
+const um = editor.UndoManager;
+const stack = um.getStack();
+
+$(document).on('click', '.gjs-pn-btn.icon-undo', function(){
+    um.undo();
+});
+$(document).on('click', '.gjs-pn-btn.icon-redo', function(){
+    um.redo();
+});
+$(document).on('click', '.gjs-pn-btn.fa-trash', function(){
+    um.clear();
 });

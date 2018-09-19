@@ -473,4 +473,73 @@ var eteachBlocks = [
           removable: false, // Once inserted it can't be removed
         }
       },
+      {
+        id: 'search',
+        label: `<h6>Search</h6>                
+            <div class="block-display">
+                <i class="fa fa-puzzle-piece fa-5" aria-hidden="true"></i>
+            </div>`,
+        attributes: { class:'gjs-block-section'},
+        content: `<div class="component offers-component" id="section-838" data-name="Jobs">
+        <div data-gjs-draggable="false" class="container">
+          <h3 data-gjs-draggable="false" class="section-title">Search</h3>
+          <h4 data-gjs-draggable="false" class="section-subtitle">Lipsum dolor sit amet</h4>
+          <div data-gjs-draggable="false" class="filters-view">
+            <div data-gjs-draggable="false" class="jobs-container" id="jobs-list">
+              <div data-gjs-draggable="false" class="filters-container filters hidden-xs">
+                <div data-gjs-draggable="false" class="filter filter__search">
+                  <input type="text" name="search" id="search-filter" class="search form-control" placeholder="Search...">
+                </div>                
+                <div data-gjs-draggable="false" class="filter filter__clear search-button-holder">
+                  <button data-gjs-draggable="false" type="button" class="btn btn-primary">Search</button>
+                </div>
+              </div>
+              
+              <div data-gjs-draggable="false" class="empty-state" id="search-result">
+                <h3 data-gjs-draggable="false">
+                  Search result
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>`
+      },
+      {
+        id: 'news',
+        label: `<h6>News</h6>                
+            <div class="block-display">
+                <i class="fa fa-puzzle-piece fa-5" aria-hidden="true"></i>
+            </div>`,
+        attributes: { class:'gjs-block-section'},
+        content: `<div class="component offers-component offers-component" id="section-838" data-name="Jobs">
+        <div data-gjs-draggable="false" class="container">
+          <h3 data-gjs-draggable="false" class="section-title">News</h3>
+          <h4 data-gjs-draggable="false" class="section-subtitle">Lipsum dolor sit amet</h4>
+          <div data-gjs-draggable="false" class="filters-view">
+            <div data-gjs-draggable="false" class="jobs-container" id="news-list"> 
+              <div data-gjs-draggable="false" class="empty-state" id="search-result">
+              <div class="text row" data-gjs-draggable="false">
+              <div class="photo col-md-2" data-gjs-draggable="false">
+              <a href="#">
+              <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/180x120" alt="">
+            </a>
+              </div>
+              <div class="body col-md-10" data-gjs-draggable="false">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+                occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+                mollit anim id est laborum. <a class="btn btn-link" href="#">read more</a></p>
+              </div>
+            </div>
+            </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>`
+      }
   ]
