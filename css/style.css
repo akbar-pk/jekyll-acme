@@ -11991,6 +11991,13 @@ line-he .header-component .cover h1.brand a:hover {
 	line-height: 30px;
 }
 
+.blog-back.blogs {
+    display: none;
+}
+.remove-left-padding {
+    padding-left: unset !important;
+}
+
 @media screen and (max-width:900px) {
 	.faqs__item {
 		width: 50%;
