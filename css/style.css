@@ -11171,15 +11171,41 @@ line-he .header-component .cover h1.brand a:hover {
 	position: relative
 }
 
-.quote-component .member .titles .h5 {
+.offers-component .search-result {
+    padding: 25px;
+    border: 1px solid #ccc;
+    margin: 15px 0px;
+    width: 100%;
+}
+
+.search-result .titles {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.search-result .titles:last-child {
+    border-bottom: unset;
+    margin-bottom: unset;
+}
+
+.quote-component .member .titles .h5, .search-result .titles .h5 {
 	color: #404b58;
 	font-size: 16px
 }
 
-.quote-component .member .titles .department {
+.quote-component .member .titles .department, .search-result .titles .department {
 	color: #f5226c;
 	font-size: 13px;
 	text-transform: uppercase
+}
+
+.search-result .titles .department {
+	color: #404b58;
+}
+
+.offers-component .search-result .titles .department {
+    text-transform: unset;
 }
 
 .team-component .members {

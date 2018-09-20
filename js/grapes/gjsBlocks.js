@@ -494,8 +494,23 @@ var eteachBlocks = [
                   <button data-gjs-draggable="false" type="button" class="btn btn-primary">Search</button>
                 </div>
               </div>
+
+              <div class="col-md-2 col-centered search-result" data-gjs-draggable="false">
+                <div class="titles" data-gjs-draggable="false">
+                    <div class="h5" data-gjs-draggable="false"><a href="#">Job Title 1</a></div>
+                    <div class="department" data-gjs-draggable="false">Job Decription 1</div>
+                </div>
+                <div class="titles" data-gjs-draggable="false">
+                    <div class="h5" data-gjs-draggable="false"><a href="#">Job Title 2</a></div>
+                    <div class="department" data-gjs-draggable="false">Job Decription 2</div>
+                </div>
+                <div class="titles" data-gjs-draggable="false">
+                    <div class="h5" data-gjs-draggable="false"><a href="#">Job Title 3</a></div>
+                    <div class="department" data-gjs-draggable="false">Job Decription 3</div>
+                </div>
+            </div>
               
-              <div data-gjs-draggable="false" class="empty-state" id="search-result">
+              <div data-gjs-draggable="false" class="empty-state hide" id="search-result">
                 <h3 data-gjs-draggable="false">
                   Search result
                 </h3>
